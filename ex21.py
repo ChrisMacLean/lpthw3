@@ -24,5 +24,10 @@ iq = divide(100, 2)
 
 print(f"Age: {age}, height: {height}, weight: {weight}, iq: {iq}")
 
+# you can feed it input too
+age_input = add(float(input()), float(input()))
+
+print(f"{age_input}")
+
 # OOO test below, nesting shit
 # what = add(age, subtract(height, multiply(weight, divide(iq, 2))))
