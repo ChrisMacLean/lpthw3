@@ -7,7 +7,7 @@ print(f"We're going to erase {filename}.")
 print("If you don't want that, hit CTRL-C (^C).")
 print("If you do want that, hit RETURN.")
 
-# really this input only allows ctrl-c interrupt, anything else and it ocnintues
+# really this input only allows ctrl-c interrupt, anything else and it continues
 input("?")
 
 # this opens the file with a write paramter so we can write to it later
