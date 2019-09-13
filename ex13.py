@@ -2,6 +2,7 @@
 from sys import argv
 # read the wyss section for how to run this
 # this unpacks argv and assigns it to the 4 variables below
+# number of arguments has to equal number of variables defined here
 script, first, second, third = argv
 
 print("The script is called:", script)

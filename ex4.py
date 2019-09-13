@@ -2,6 +2,7 @@ cars = 1000
 space_in_a_car = 4.0
 drivers = 30
 passengers = 90
+# variables can be derived from other variables
 cars_not_driven = cars - drivers # 1000 - 30
 cars_driven = drivers # 30
 carpool_capacity = cars_driven * space_in_a_car # 30 * 4.0

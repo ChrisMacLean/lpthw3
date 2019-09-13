@@ -25,7 +25,7 @@ print(joke_evaluation.format(hilarious))
 #this does nothing because binary has no blank variable spot?
 print(binary.format(do_not))
 
-#this should do something because it does have blank variable spot?
+#this should do something because it does have blank variable spot being filled by binary variable?
 print(joke_evaluation.format(binary))
 
 w = "This is the left side of..."

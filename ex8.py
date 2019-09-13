@@ -1,4 +1,4 @@
-#ok so I think this is setting up 4 + in the variable
+#ok so I think this is setting up 4 spots in the variable
 formatter = "{} {} {} {}"
 
 #the below is all different ways of passing arguments to format function

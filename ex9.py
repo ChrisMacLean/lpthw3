@@ -3,7 +3,7 @@
 #this one is 1 line
 days = "Mon Tue Wed Thu Fri Sat Sun"
 # the \n creates a new line in output
-months = "Jan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug"
+months = "\nJan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug"
 
 #this is standard printing so far
 print("Here are the days: ", days)
