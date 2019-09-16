@@ -1,6 +1,7 @@
 from sys import argv
 
 # I guess argv accepts as many arguments as you want but the first one appears to be the name of the script always?
+# when using argv the you have to pass some value to it and that can be used as a variable for other things like user_name here
 script, user_name = argv
 prompt = "==> "
 

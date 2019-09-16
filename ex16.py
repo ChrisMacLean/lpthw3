@@ -10,7 +10,7 @@ print("If you do want that, hit RETURN.")
 # really this input only allows ctrl-c interrupt, anything else and it continues
 input("?")
 
-# this opens the file with a write paramter so we can write to it later
+# this opens the file with a write paramter "w" so we can write to it later
 print("Opening the file...")
 target = open(filename, "w")
 
@@ -37,3 +37,12 @@ target.write(f"{line1}\n{line2}\n{line3}")
 
 print("And finally, we close it.")
 target.close
+
+
+# read related functions
+# close - like saving
+# read - reads the whole file
+# readline - reads just one line
+# truncate - empties the file
+# write('stuff') - writes stuff to the file
+# seek(0) - move the read/write to the beginning of file

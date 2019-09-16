@@ -1,7 +1,8 @@
-# bring in argv modeul
+# bring in argv module
 from sys import argv
 
 # argument is filename to be read
+# so I guess ahead of time you need to know what variables are based off the argv input
 script, filename = argv
 
 # this variable is open function on filename, default open is to read from file
