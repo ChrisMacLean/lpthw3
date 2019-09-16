@@ -1,5 +1,6 @@
 from sys import argv
 
+# again we are assuming we are providing the right file name for this whole exercise
 script, filename = argv
 
 # ok so ctrl-c is keyboard interrupt, other wise it opens and truncates it
@@ -11,11 +12,12 @@ print("If you do want that, hit RETURN.")
 input("?")
 
 # this opens the file with a write paramter "w" so we can write to it later
+# w for write, r for read, a for append
 print("Opening the file...")
 target = open(filename, "w")
 
-# This truncate is unecessary, truncates when doing open in write mode
-# since we already opened the file does target know it's the currently open file?
+# This truncate is unecessary, it already truncates when doing open with write parameter
+# since we already opened the file in target variable definition we can truncate it here
 print("Truncating the file. Goodbye!")
 target.truncate
 
