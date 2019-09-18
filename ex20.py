@@ -26,6 +26,7 @@ rewind(current_file)
 
 print("Let's print 3 lines")
 
+# x = x + y can be written as x += y
 # this makes current line = 1,2,3 respectively then passes to print_a_line function
 current_line = 1
 
